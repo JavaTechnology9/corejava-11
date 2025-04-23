@@ -17,8 +17,11 @@ public class Box{
         this.width=w;
         this.height=height;
         this.depth=depth;
-
     }
+    public Box(double len){
+        width=height=depth=len;
+    }
+
 
     //type name(parameter-list){ body of the method }
     double volume(){//declare
